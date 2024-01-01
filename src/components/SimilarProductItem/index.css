@@ -1,0 +1,48 @@
+/* Write your CSS here */
+.similar-product-item {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.similar-product-image {
+  height: 80px;
+  width: 80px;
+}
+.similar-product-title {
+  font-size: 11px;
+  color: black;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+.similar-product-title {
+  font-size: 11px;
+  color: black;
+  margin-bottom: 2px;
+}
+.similar-product-price-rating-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.similar-product-price {
+  font-size: 11px;
+  color: black;
+}
+.similar-product-rating-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.similar-product-rating {
+  font-size: 11px;
+  color: black;
+}
+.similar-product-star {
+  height: 12px;
+  width: 15px;
+  background-color: yellow;
+}
